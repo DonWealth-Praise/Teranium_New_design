@@ -1,0 +1,11 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 12 Jun 2024 17:48:46 at https://probalance.webflow.io/ +*.svg +*.webp +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*[name].https://probalance.webflow.io//*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.05 [fr] (Win98; I)" -%F  -%l "en, *" https://probalance.webflow.io/ -O1 "C:\My Web Sites\Teranium_New_design" +*.svg +*.webp +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*[name].https://probalance.webflow.io//* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 6 seconds : 135 links scanned, 133 files written (23950888 bytes overall) [20925991 bytes received at 317060 bytes/sec], 7764498 bytes transferred using HTTP compression in 85 files, ratio 59%, 12.2 requests per connection
+(No errors, 0 warnings, 0 messages)
