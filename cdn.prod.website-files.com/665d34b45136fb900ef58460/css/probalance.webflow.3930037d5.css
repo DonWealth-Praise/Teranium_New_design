@@ -12,6 +12,213 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* .video_sec {
+  background-image: url(../../665d35c81c0aabc1cd692224/futuristic-smart-city-with-5g-global-network-technology.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 10px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(2, 68, 73, 0.336);
+  z-index: 0;
+}
+
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: var(--brand--green);
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: var(--brand--green);
+  border-radius: 50%;
+  transition: all 200ms;
+} */
+
+/* video section starts */
+
+.video_sec {
+  background-image: url(../../665d35c81c0aabc1cd692224/futuristic-smart-city-with-5g-global-network-technology.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 10px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #bf7a3633;
+  z-index: 0;
+}
+
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 32px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: var(--brand--green);
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: var(--brand--green);
+  border-radius: 50%;
+  transition: all 200ms;
+}
+
+.video-play-button:hover:after {
+  background-color: darken(#2b5551, 10%);
+}
+
+.video-play-button img {
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: translateY(3px);
+}
+
+.video-play-button span {
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+
+@keyframes pulse-border {
+  0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+  }
+
+  100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+  }
+}
+
+#play-video,
+#play-video2 {
+  cursor: pointer;
+}
+
+.video_sec .modal-dialog {
+  max-width: 95vw;
+  width: 100%;
+}
+
+.video_sec video {
+  height: 100%;
+}
+
+.video_sec .modal-body {
+  height: inherit;
+  background: var(--color-green);
+}
+
+.video_sec .modal-content {
+  height: 80vh;
+}
+
+.btn-close {
+  position: absolute;
+  right: 10px;
+  -webkit-filter: invert(1);
+  opacity: 1;
+  z-index: 9;
+}
+
+
+/* video section ends  */
+
 .core-pro{
   text-align: center;
   margin: 0 auto;
@@ -416,8 +623,8 @@ pre.w-code-block code {
 }
 
 .w-webflow-badge, .w-webflow-badge * {
-  z-index: auto;
-  visibility: visible;
+  z-index: -242365;
+  visibility: hidden;
   box-sizing: border-box;
   float: none;
   clear: none;
@@ -464,7 +671,7 @@ pre.w-code-block code {
   bottom: auto;
   left: auto;
   right: auto;
-  overflow: visible;
+  overflow: hidden;
   transform: none;
 }
 
@@ -472,10 +679,10 @@ pre.w-code-block code {
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
-  visibility: visible !important;
-  z-index: 2147483647 !important;
+  visibility: hidden !important;
+  z-index: -2147483647 !important;
   color: #aaadb0 !important;
-  opacity: 1 !important;
+  opacity: 0 !important;
   background-color: #fff !important;
   border-radius: 3px !important;
   width: auto !important;
@@ -491,13 +698,13 @@ pre.w-code-block code {
   bottom: 12px !important;
   left: auto !important;
   right: 12px !important;
-  overflow: visible !important;
+  overflow: hidden !important;
   transform: none !important;
 }
 
 .w-webflow-badge > img {
-  visibility: visible !important;
-  opacity: 1 !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
   vertical-align: middle !important;
   display: inline-block !important;
 }
@@ -2243,13 +2450,14 @@ textarea.w-input, textarea.w-select {
   --font--heading-font: Aspekta, sans-serif;
   --neutral--black-900: #050430;
   --neutral--white: white;
-  --brand--green: #9cd6ae;
+  --brand--green: #024449;
   --neutral--black-800: #211f50;
   --secondary--light-pink: #e2a4ec;
   --secondary--light-purple: #d7d5f9;
   --neutral--white-400: #928881;
   --neutral--white-300: #e3dfdc;
   --neutral--gray-600: #828199;
+  --dark-teal: #F4E9CD;
 }
 
 .w-layout-grid {
@@ -4713,6 +4921,10 @@ blockquote {
   display: flex;
 }
 
+.service-arrow > img {
+  filter: invert(100%) brightness(200%);
+}
+
 .service-line-wrapper {
   background-color: var(--neutral--white-300);
   width: 100%;
@@ -5250,7 +5462,7 @@ blockquote {
 }
 
 .section-footer {
-  background-color: #1A1A1A
+  background-color: var(--brand--green);
 }
 
 .footer-component {
@@ -5298,7 +5510,7 @@ blockquote {
 }
 
 .footer-input {
-  background-color: var(--neutral--black-800);
+  background-color: #cecfcf5d;
   border: 1px #000;
   border-radius: .3125rem;
   min-height: 2.625rem;
@@ -5308,6 +5520,10 @@ blockquote {
 
 .footer-input:focus-visible {
   color: var(--neutral--white);
+}
+
+.footer-btn {
+  background-color: #cecfcf5d;
 }
 
 .footer-input[data-wf-focus-visible] {
